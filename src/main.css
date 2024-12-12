@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: lightblue;
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
