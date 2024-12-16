@@ -1,8 +1,8 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import "./App.css";
-import MainPage from "./Pages/MainPage";
-import Navbar from "./Components/NavBar";
+import MainPage from "./pages/MainPage";
+import Navbar from "./components/NavBar";
 
 function App() {
   // Sets up routes
