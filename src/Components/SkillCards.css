@@ -1,0 +1,33 @@
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  justify-content: center;
+}
+
+.SkillCard {
+  height: auto;
+  width: 80px; /* Adjust width to fit your design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #d6cfcf;
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional for depth */
+  text-align: center;
+}
+
+.skill-icon {
+  width: 50px; /* Adjust size */
+  height: 50px;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+
+.skill-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}

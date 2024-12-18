@@ -6,7 +6,7 @@ const ProjectLayout = () => {
   return (
     <div className="projects-container">
       <ProjectCard
-        image="/path-to-image1.jpg"
+        image="./images/github-mark.jpeg"
         title="Project 1"
         description="Description for project 1."
         techStack={["React", "JavaScript", "CSS"]}
