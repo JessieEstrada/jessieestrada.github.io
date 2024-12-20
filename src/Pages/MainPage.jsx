@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./MainPage.css";
 import ProjectLayout from "../components/ProjectLayout";
 import SkillLayout from "../components/SkillLayout";
 
 const MainPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <>
       <div className="main-page">
@@ -43,12 +46,11 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-
-        <div className="skills">
+        <div id="skills" className="section">
           <h2 className="section-title">Skills</h2>
           <SkillLayout />
         </div>
-        <div className="projects">
+        <div id="projects" className="section">
           <h2 className="section-title">Projects</h2>
           <ProjectLayout />
         </div>

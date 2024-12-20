@@ -27,7 +27,7 @@ const ProjectLayout = () => {
         githubLink="https://github.com/project3"
       />
       <ProjectCard
-        image="/path-to-image4.jpg"
+        image=""
         title="Project 4"
         description="Description for project 4."
         techStack={["Vue", "JavaScript", "Sass"]}

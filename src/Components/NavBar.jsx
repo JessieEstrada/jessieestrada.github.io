@@ -3,22 +3,35 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Adds a smooth scroll effect
+    });
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-content">
         <div className="nav-menu-bar">
           <ul className="menu-bar">
-            <li className="nav-item">
-              <Link to="/MainPage">Welcome</Link>
+            <li id="nav-bar-logo" className="nav-item">
+              <a href="#home" onClick={scrollToTop}>
+                <img
+                  src="./images/JE-Logo.png" // Replace with the actual path to your logo
+                  alt="Logo"
+                  className="nav-logo"
+                />
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/MainPage">Skills</Link>
+              <a href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <Link to="/MainPage">Projects</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <Link to="/MainPage">Contact</Link>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
