@@ -5,47 +5,47 @@
 
 .intro-grid {
   display: grid;
-  grid-template-columns: auto 1fr auto; /* Three columns: social buttons, name/title, profile picture */
-  align-items: center; /* Vertically align all content */
-  gap: 2rem; /* Space between columns */
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
 }
 
 .intro-social {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem; /* Space between buttons */
+  gap: 2.5rem;
 }
 
 .social-button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 150px; /* Adjust the width of the button container */
+  width: 150px;
   padding: 10px;
   background-color: transparent;
   cursor: pointer;
   transition: transform 0.3s ease;
+  text-decoration: none;
 }
 
 .social-button:hover {
-  transform: scale(1.05); /* Slight scale effect on hover */
+  transform: scale(1.05);
 }
 
 .social-button img {
-  margin-right: 10px; /* Space between icon and text */
-  width: 25px; /* Adjust size */
-  height: 25px; /* Adjust size */
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
 }
 
 .social-button span {
   opacity: 0;
   font-size: 1rem;
-  color: #333;
+  color: #ffffff;
   transition: opacity 0.3s ease;
 }
 
 .social-button:hover span {
-  opacity: 1; /* Show text when hovered */
+  opacity: 1;
 }
 
 .intro-information {
@@ -56,6 +56,7 @@
 }
 
 .intro-name {
+  color: white;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -63,28 +64,42 @@
 
 .intro-title {
   font-size: 1.5rem;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+
+.intro-education {
+  font-size: 1rem;
+  color: #b5b5b5;
+}
+
+.intro-education p {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.4;
 }
 
 .resume-button {
-  font-weight: 600; /* Slightly bolder for readability */
-  padding: 0.8rem 2rem; /* Slightly adjusted padding for a more refined feel */
+  font-weight: 600;
+  padding: 0.8rem 2rem;
   font-size: 1rem;
-  color: #ffffff; /* White text for contrast */
-  background-color: #242424; /* Dark grey background */
-  border-radius: 50px; /* Rounded corners for modern look */
+  color: #333333;
+  background-color: #d9d9d9;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
 }
 
 .resume-button:hover {
-  background-color: #444444; /* Slightly lighter grey for hover effect */
-  transform: scale(1.05); /* Subtle scaling on hover */
+  background-color: #b0b0b0;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-.resume-button:focus {
-  outline: none; /* Remove outline for cleaner look */
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Soft shadow on focus */
+.resume-button:active {
+  background-color: #9e9e9e;
+  transform: scale(0.98);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }
 
 .intro-picture {
@@ -95,38 +110,86 @@
 
 .profile-picture {
   border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 9px #e1e1e14d;
   order: 1;
   justify-self: center;
   width: 300px;
   height: 300px;
-  background-image: radial-gradient(circle, rgba(0, 255, 255, 0.5), rgba(0, 0, 0, 0) 70%);
-  animation: pulse 2s infinite ease-in-out; /* Slower animation for subtler effect */
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 255, 0.88); /* Stronger blue glow */
-  }
-  50% {
-    box-shadow: 0 0 10px 10px rgba(0, 191, 255, 0); /* Subtle expansion with blue shades */
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0); /* Fade out with a cyan-ish glow */
-  }
 }
 
 .section-title {
-  text-align: center; /* Center the text horizontally */
-  margin-bottom: 20px; /* Add some spacing below the title */
-  font-size: 24px; /* Adjust the font size */
-  font-weight: bold; /* Make the text bold */
-  color: #333; /* Customize color as needed */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 20px;
 }
 
 .section {
-  scroll-margin-top: 50px; /* Adjust to match navbar height */
+  scroll-margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .main-page {
+    max-width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .intro-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    order: 2;
+    gap: 0px;
+  }
+
+  .intro-social img {
+    margin: 0;
+  }
+
+  .social-button {
+    justify-content: center;
+  }
+
+  .social-button span {
+    display: none;
+  }
+
+  .intro-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    order: 3;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    order: 1;
+  }
+  .resume-button {
+    padding: 0.6rem 1.5rem;
+  }
 }

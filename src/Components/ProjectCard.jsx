@@ -16,6 +16,11 @@ const ProjectCard = (props) => {
           ))}
         </ul>
         <a href={props.githubLink} className="project-github-link" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            alt="GitHub Logo"
+            className="github-logo"
+          />
           View on GitHub
         </a>
       </div>

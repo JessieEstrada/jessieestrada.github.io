@@ -13,7 +13,7 @@ const ProjectLayout = () => {
         githubLink="https://github.com/JessieEstrada/Game-Store-Complete-App"
       />
       <ProjectCard
-        image="./images/Bookstore-Inventory System-Screenshot.png"
+        image="./images/Bookstore-Inventory-System-Screenshot.png"
         title="Bookstore Invntory System API"
         description="This Bookstore Inventory System REST API manages inventory for any bookstore! Our development team has successfully crafted an extensive and entirely operational API designed to emulate the functionalities of a bookstore inventory system. Our users would be able to create, read, update, and delete: books, publishers, and authors. By employing the capabilitites of Spring Boot JPA and Java, we have constructed models, controllers, repositories, a GraphQL, and comprehensive testing to ensure functionality of the API."
         techStack={["Java", "SpringbBoot", "GraphQL", "DBeaver", "Docker", "MySQL", "SQL"]}
@@ -24,14 +24,21 @@ const ProjectLayout = () => {
         title="Doggie Dash"
         description="This webpage accesses a public API and constructs a dashboard view of the data. The dashboard view contains summary statistics and a list view of the data that can be searched and filtered. In specific, this website uses the Petfinder API by Purina to provide a dashboard view of different dogs available for adoption."
         techStack={["React", "HTML", "CSS", "Javascript"]}
-        githubLink="https://github.com/project3"
+        githubLink="https://github.com/JessieEstrada/CodePath-Web102-Projects/tree/main/CodePath-Web102-Project-Data%20Dashboard"
       />
       <ProjectCard
-        image=""
-        title="Project 4"
-        description="Description for project 4."
-        techStack={["Vue", "JavaScript", "Sass"]}
-        githubLink="https://github.com/project4"
+        image="./images/Crewmates-Screenshot.png"
+        title="Crewmates"
+        description='This web app: Allows the user to assemble their own team of Monkeys, inspired by the game "Bloons Tower Defense". The user can view, create, edit, and delete Monkeys whenever they choose. This web app is connected to Supabase which is a Firebase alternative that allowed this web app to store database information.'
+        techStack={["React", "HTML", "CSS", "Javascript", "Supabase"]}
+        githubLink="https://github.com/JessieEstrada/CodePath-Web102-Projects/tree/main/CodePath-Web102-Project-Crewmates"
+      />
+      <ProjectCard
+        image="./images/More-Projects-Screenshot.png"
+        title="More Projects"
+        description="Check out more of my projects on GitHub. You'll find a collection of projects I have worked on with varying technologies and challenges."
+        techStack={["Various Technologies"]}
+        githubLink="https://github.com/JessieEstrada"
       />
     </div>
   );

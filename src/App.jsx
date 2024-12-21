@@ -5,7 +5,6 @@ import MainPage from "./pages/MainPage";
 import Navbar from "./components/NavBar";
 
 function App() {
-  // Sets up routes
   let element = useRoutes([
     {
       path: "/",

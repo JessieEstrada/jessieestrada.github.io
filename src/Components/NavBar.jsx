@@ -6,7 +6,7 @@ const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Adds a smooth scroll effect
+      behavior: "smooth",
     });
   };
 
@@ -18,20 +18,20 @@ const Navbar = () => {
             <li id="nav-bar-logo" className="nav-item">
               <a href="#home" onClick={scrollToTop}>
                 <img
-                  src="./images/JE-Logo.png" // Replace with the actual path to your logo
+                  src="./images/JE-Logo.png"
                   alt="Logo"
                   className="nav-logo"
                 />
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-link">
               <a href="#skills">Skills</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-link">
               <a href="#projects">Projects</a>
             </li>
-            <li className="nav-item">
-              <a href="#contact">Contact</a>
+            <li className="nav-item nav-link">
+              <a href="#experience">Experience</a>
             </li>
           </ul>
         </div>
