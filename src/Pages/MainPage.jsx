@@ -31,7 +31,7 @@ const MainPage = () => {
                 <span>LinkedIn</span>
               </a>
               <a href="mailto:your-email@example.com" className="social-button">
-                <img src="/images/Email-icon.png" alt="Email" />
+                <img src="./images/Email-icon.png" alt="Email" />
                 <span>Email</span>
               </a>
             </div>
@@ -52,7 +52,7 @@ const MainPage = () => {
               </a>
             </div>
             <div className="intro-picture">
-              <img src="/images/Jessie-Profile-Picture.png" alt="Profile" className="profile-picture" />
+              <img src="./images/Jessie-Profile-Picture.png" alt="Profile" className="profile-picture" />
             </div>
           </div>
         </div>
