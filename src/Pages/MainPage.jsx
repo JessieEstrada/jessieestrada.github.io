@@ -30,7 +30,7 @@ const MainPage = () => {
                 />
                 <span>LinkedIn</span>
               </a>
-              <a href="mailto:your-email@example.com" className="social-button">
+              <a href="mailto:jestrada3745@gmail.com" className="social-button">
                 <img src="./images/Email-icon.png" alt="Email" />
                 <span>Email</span>
               </a>
