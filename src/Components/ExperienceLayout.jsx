@@ -29,7 +29,7 @@ const ExperienceLayout = () => {
     {
       title: "Certificate in Computer Programming",
       company: "California State University of Los Angeles",
-      date: "June 2023 – August 2023",
+      date: "June 2020 – August 2023",
       location: "Los Angeles",
       bulletPoints: [
         "Completed coursework in programming and web development, building a foundation in full-stack development",
@@ -40,7 +40,7 @@ const ExperienceLayout = () => {
     {
       title: "Bachelor of Science in Computer Information Systems",
       company: "California State University of Los Angeles",
-      date: "June 2023 – August 2023",
+      date: "June 2020 – August 2023",
       location: "Los Angeles, CA",
       bulletPoints: [
         "Developed a strong foundation in information systems, with an emphasis on application and web development",
