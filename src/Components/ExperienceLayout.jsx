@@ -6,7 +6,7 @@ const ExperienceLayout = () => {
     {
       title: "Web Development Alumni",
       company: "CodePath",
-      date: "Oct 2023 - November 2023",
+      date: "Sep 2023 - Nov 2023",
       location: "Los Angeles",
       bulletPoints: [
         "Applied React for interactive frontends and integrated APIs for dynamic data presentation, demonstrating strong problem-solving skills and attention to detail",
@@ -29,7 +29,7 @@ const ExperienceLayout = () => {
     {
       title: "Certificate in Computer Programming",
       company: "California State University of Los Angeles",
-      date: "May 2020 – August 2023",
+      date: "May 2020 – Dec 2023",
       location: "Los Angeles",
       bulletPoints: [
         "Completed coursework in programming and web development, building a foundation in full-stack development",
@@ -40,7 +40,7 @@ const ExperienceLayout = () => {
     {
       title: "Bachelor of Science in Computer Information Systems",
       company: "California State University of Los Angeles",
-      date: "May 2020 – August 2023",
+      date: "May 2020 – Dec 2023",
       location: "Los Angeles, CA",
       bulletPoints: [
         "Developed a strong foundation in information systems, with an emphasis on application and web development",
