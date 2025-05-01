@@ -15,7 +15,7 @@ const ExperienceLayout = () => {
       ],
     },
     {
-      title: "Software Engineering Fellow",
+      title: "Netflix Pathways Advanced Software Engineering Bootcamp",
       company: "Netflix",
       date: "Jan 2023 - April 2023",
       location: "Los Angeles",
