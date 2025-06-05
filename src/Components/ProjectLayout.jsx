@@ -6,6 +6,13 @@ const ProjectLayout = () => {
   return (
     <div className="projects-container">
       <ProjectCard
+        image="./images/E-Commerce-Website-Backend-API-Screenshot.png"
+        title="E-Commerce Website Backend API"
+        description="A production-grade e-commerce backend built with Spring Boot. This RESTful API handles product listings, user authentication with JWT, shopping cart operations, order processing, and role-based access — all designed with best practices and scalability in mind."
+        techStack={["Java", "Spring Boot", "Spring Security", "JWT", "JPA", "MySQL", "PostgreSQL", "AWS (EC2)",]}
+        githubLink="https://github.com/JessieEstrada/E-Commerce-Website-Backend-API"
+      />
+      <ProjectCard
         image="./images/WormHole-Gaming-Screenshot.png"
         title="WormHole Gaming"
         description="Explore our front-end application for the Game Store API. Features include easy navigation, checkout, addition of new items, and display of all items. Striving for a user-friendly experience, high performance, and secure transactions."

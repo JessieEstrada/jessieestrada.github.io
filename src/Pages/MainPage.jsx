@@ -13,7 +13,11 @@ const MainPage = () => {
         <div className="intro-section">
           <div className="intro-grid">
             <div className="intro-social">
-              <a href="https://github.com/JessieEstrada" target="_blank" rel="noopener noreferrer" className="social-button">
+              <a
+                href="https://github.com/JessieEstrada"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-button">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                   alt="GitHub"
@@ -23,7 +27,11 @@ const MainPage = () => {
                 />
                 <span>GitHub</span>
               </a>
-              <a href="https://linkedin.com/in/JessieEstrada" target="_blank" rel="noopener noreferrer" className="social-button">
+              <a
+                href="https://linkedin.com/in/JessieEstrada"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-button">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
                   style={{ borderRadius: "10%" }}
@@ -37,7 +45,7 @@ const MainPage = () => {
             </div>
             <div className="intro-information">
               <div className="intro-name">Jessie Estrada</div>
-              <div className="intro-title">Software Engineer</div>
+              <div className="intro-title">Backend Software Engineer</div>
               <div className="intro-education">
                 <p>
                   B.S. Computer Information Systems <br />- California State University of Los Angeles
@@ -46,8 +54,7 @@ const MainPage = () => {
               <a
                 href="https://docs.google.com/document/d/14-AHRLg02YdlsaOtvqPb9O92XWZ9RD1hKWdQm-G8hzs/edit?usp=sharing"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <button className="resume-button">View My Resume</button>
               </a>
             </div>
