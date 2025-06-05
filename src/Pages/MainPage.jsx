@@ -52,7 +52,7 @@ const MainPage = () => {
                 </p>
               </div>
               <a
-                href="https://docs.google.com/document/d/14-AHRLg02YdlsaOtvqPb9O92XWZ9RD1hKWdQm-G8hzs/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1RKx5oyX2uIYIMzN6CcOdRUOi5ZSn37auO2WwIxOYT3I/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer">
                 <button className="resume-button">View My Resume</button>
