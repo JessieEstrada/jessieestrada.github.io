@@ -72,7 +72,7 @@
   font-size: 0.9rem;
 }
 
-.project-github-link {
+.project-link {
   margin-top: auto;
   color: #006bdd;
   text-decoration: none;
@@ -86,13 +86,13 @@
   border-radius: 10px;
 }
 
-.project-github-link:hover {
+.project-link:hover {
   background-color: #a2d4ff;
   transform: translateY(-2px);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.github-logo {
+.link-icon {
   width: 20px;
   height: 20px;
   margin-right: 8px;
@@ -140,7 +140,7 @@
     font-size: 0.8rem;
   }
 
-  .project-github-link {
+  .project-link {
     font-size: 13px;
     padding: 0.5rem 1rem;
     align-self: center;
@@ -192,7 +192,7 @@
     font-size: 0.75rem;
   }
 
-  .project-github-link {
+  .project-link {
     font-size: 12px;
     padding: 0.4rem 1rem;
     align-self: center;

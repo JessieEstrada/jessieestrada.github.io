@@ -1,4 +1,3 @@
-import React from "react";
 import "./ProjectCards.css";
 
 const ProjectCard = (props) => {
@@ -15,14 +14,12 @@ const ProjectCard = (props) => {
             <li key={index}>{tech}</li>
           ))}
         </ul>
-        <a href={props.githubLink} className="project-github-link" target="_blank" rel="noopener noreferrer">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-            alt="GitHub Logo"
-            className="github-logo"
-          />
-          View on GitHub
-        </a>
+        {props.linkUrl && (
+          <a href={props.linkUrl} className="project-link" target="_blank" rel="noopener noreferrer">
+            {props.linkIcon && <img src={props.linkIcon} alt="Link Icon" className="link-icon" />}
+            View Project
+          </a>
+        )}
       </div>
     </div>
   );
