@@ -7,7 +7,7 @@ function DataAnalyst() {
   return (
     <div className="main-page">
       <div className="data-analyst-page">
-        <IntroSection title="Data Analyst" />
+        <IntroSection title="Data Analyst" resumeLink="https://docs.google.com/document/d/14GYywN57lqYGlPBOdL994yRwTEQUu8tVrxZhNQCIWVY/edit?usp=sharing" />
         <div id="skills" className="section">
           <h2 className="section-title">Skills</h2>
           <SkillLayout specialty="data-analyst" />

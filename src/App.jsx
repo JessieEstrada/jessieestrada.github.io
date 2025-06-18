@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
 import DataAnalyst from "./pages/DataAnalyst.jsx";
 import ITSpecialist from "./pages/ITSpecialist.jsx";
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <Navbar />
       {element}
+      <Footer /> {/* Footer appears on all pages */}
     </div>
   );
 }

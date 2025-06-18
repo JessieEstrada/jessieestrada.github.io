@@ -1,6 +1,6 @@
 import "./IntroSection.css";
 
-const IntroSection = ({ title }) => (
+const IntroSection = ({ title, resumeLink }) => (
   <div className="intro-section">
     <div className="intro-grid">
       <div className="intro-social">
@@ -14,15 +14,8 @@ const IntroSection = ({ title }) => (
           />
           <span>GitHub</span>
         </a>
-        <a
-          href="https://linkedin.com/in/JessieEstrada"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-button">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
-            style={{ borderRadius: "10%" }}
-          />
+        <a href="https://linkedin.com/in/JessieEstrada" target="_blank" rel="noopener noreferrer" className="social-button">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style={{ borderRadius: "10%" }} />
           <span>LinkedIn</span>
         </a>
         <a href="mailto:jestrada3745@gmail.com" className="social-button">
@@ -38,10 +31,7 @@ const IntroSection = ({ title }) => (
             B.S. Computer Information Systems <br />- California State University of Los Angeles
           </p>
         </div>
-        <a
-          href="https://docs.google.com/document/d/1RKx5oyX2uIYIMzN6CcOdRUOi5ZSn37auO2WwIxOYT3I/edit?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer">
+        <a href={resumeLink} target="_blank" rel="noopener noreferrer">
           <button className="resume-button">View My Resume</button>
         </a>
       </div>

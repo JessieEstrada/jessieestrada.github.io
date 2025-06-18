@@ -7,7 +7,7 @@ function SystemsAnalyst() {
   return (
     <div className="main-page">
       <div className="systems-analyst-page">
-        <IntroSection title="Systems Analyst" />
+        <IntroSection title="Systems Analyst" resumeLink="https://docs.google.com/document/d/1RvsjKek3cGc4eorcBxRd0jxa2y2fBXBtUkWeWLBsQBs/edit?usp=sharing" />
         <div id="skills" className="section">
           <h2 className="section-title">Skills</h2>
           <SkillLayout specialty="systems-analyst" />

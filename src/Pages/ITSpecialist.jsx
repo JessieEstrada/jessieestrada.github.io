@@ -7,7 +7,7 @@ function ITSpecialist() {
   return (
     <div className="main-page">
       <div className="it-support-page">
-        <IntroSection title="IT Specialist" />
+        <IntroSection title="IT Specialist" resumeLink="https://docs.google.com/document/d/1OREfiwKJ4_F9TtoEfQC47pVxf_oPOtUHVXAIjsjOkmY/edit?usp=sharing" />
         <div id="skills" className="section">
           <h2 className="section-title">Skills</h2>
           <SkillLayout specialty="it-specialist" />
