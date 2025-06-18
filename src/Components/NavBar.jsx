@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom"; // ⬅️ Import this
+import { Link, useLocation } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const location = useLocation(); // ⬅️ Hook to get current route
+  const location = useLocation();
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // Check if you're on the main page ("/")
   const isMainPage = location.pathname === "/";
 
   return (
@@ -19,33 +19,34 @@ const Navbar = () => {
         <div className="nav-menu-bar">
           <ul className="menu-bar">
             <li id="nav-bar-logo" className="nav-item">
-              <a href="/" onClick={scrollToTop}>
+              <Link to="/" onClick={scrollToTop}>
                 <img src="/images/JE-Logo.png" alt="Logo" className="nav-logo" />
-              </a>
+              </Link>
             </li>
+
             <li className="nav-item nav-link dropdown" onMouseEnter={() => setDropdownOpen(true)} onClick={() => setDropdownOpen(!dropdownOpen)}>
               <span className="dropdown-toggle">Specialties ▾</span>
               {dropdownOpen && (
                 <ul className="dropdown-menu">
                   <li>
-                    <a href="/software-engineer" onClick={scrollToTop}>
+                    <Link to="/software-engineer" onClick={scrollToTop}>
                       Software Engineer
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/it-support" onClick={scrollToTop}>
+                    <Link to="/it-support" onClick={scrollToTop}>
                       IT Specialist
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/data-analyst" onClick={scrollToTop}>
+                    <Link to="/data-analyst" onClick={scrollToTop}>
                       Data Analyst
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/systems-analyst" onClick={scrollToTop}>
+                    <Link to="/systems-analyst" onClick={scrollToTop}>
                       Systems Analyst
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               )}
@@ -54,13 +55,19 @@ const Navbar = () => {
             {!isMainPage && (
               <>
                 <li className="nav-item nav-link">
-                  <a href="#skills">Skills</a>
+                  <HashLink smooth to="#skills">
+                    Skills
+                  </HashLink>
                 </li>
                 <li className="nav-item nav-link">
-                  <a href="#projects">Projects</a>
+                  <HashLink smooth to="#projects">
+                    Projects
+                  </HashLink>
                 </li>
                 <li className="nav-item nav-link">
-                  <a href="#experience">Experience</a>
+                  <HashLink smooth to="#experience">
+                    Experience
+                  </HashLink>
                 </li>
               </>
             )}

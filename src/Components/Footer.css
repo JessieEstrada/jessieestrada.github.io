@@ -3,11 +3,13 @@
   color: #ffffff;
   text-align: center;
   padding: 2rem;
-  width: 100%;
-  margin-top: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto 0 auto;
   border-top: 1px solid #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .footer-links {
@@ -34,6 +36,7 @@
   .footer {
     padding: 1rem;
     margin-top: 1rem;
+    max-width: 100%; /* full width on smaller screens */
   }
 
   .footer-links {
