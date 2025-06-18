@@ -133,6 +133,28 @@ const experienceSets = {
         "Automated API testing and ensured system reliability through MockMVC, supporting seamless customer experiences",
       ],
     },
+    {
+      title: "Bachelor of Science in Computer Information Systems",
+      company: "California State University of Los Angeles",
+      date: "May 2020 – Dec 2023",
+      location: "Los Angeles, CA",
+      bulletPoints: [
+        "Developed a strong foundation in information systems, with an emphasis on application and web development",
+        "Used various data visualization techniques and software to transform raw data into actionable insights",
+        "Relevant Coursework: Database Design and Development, Systems Analysis and Design, Big Data, Information Security",
+      ],
+    },
+    {
+      title: "Certificate in Computer Programming",
+      company: "California State University of Los Angeles",
+      date: "May 2020 – Dec 2023",
+      location: "Los Angeles",
+      bulletPoints: [
+        "Completed coursework in programming and web development, building a foundation in full-stack development",
+        "Proficient in Java, HTML, CSS, and JavaScript to build dynamic and responsive applications",
+        "Relevant Coursework: Application Programming, Web Design and Development, Advanced Java",
+      ],
+    },
   ],
 
   "systems-analyst": [
@@ -171,9 +193,29 @@ const experienceSets = {
         "Designed and executed automated API tests to ensure system stability, directly supporting seamless user experiences",
       ],
     },
+    {
+      title: "Bachelor of Science in Computer Information Systems",
+      company: "California State University of Los Angeles",
+      date: "May 2020 – Dec 2023",
+      location: "Los Angeles, CA",
+      bulletPoints: [
+        "Developed a strong foundation in information systems, with an emphasis on application and web development",
+        "Used various data visualization techniques and software to transform raw data into actionable insights",
+        "Relevant Coursework: Database Design and Development, Systems Analysis and Design, Big Data, Information Security",
+      ],
+    },
+    {
+      title: "Certificate in Computer Programming",
+      company: "California State University of Los Angeles",
+      date: "May 2020 – Dec 2023",
+      location: "Los Angeles",
+      bulletPoints: [
+        "Completed coursework in programming and web development, building a foundation in full-stack development",
+        "Proficient in Java, HTML, CSS, and JavaScript to build dynamic and responsive applications",
+        "Relevant Coursework: Application Programming, Web Design and Development, Advanced Java",
+      ],
+    },
   ],
-
-  // Add other specialties here
 };
 
 const ExperienceLayout = ({ specialty }) => {
