@@ -14,7 +14,7 @@ const experienceSets = {
       ],
     },
     {
-      title: "Netflix Pathways Advanced Software Engineering Bootcamp",
+      title: "Software Engineering Fellow",
       company: "Netflix",
       date: "Jan 2023 - April 2023",
       location: "Los Angeles",
@@ -74,7 +74,7 @@ const experienceSets = {
       ],
     },
     {
-      title: "Netflix Pathways Advanced Software Engineering Bootcamp",
+      title: "Software Engineering Fellow",
       company: "Netflix",
       date: "Jan 2023 - April 2023",
       location: "Los Angeles",
@@ -123,7 +123,7 @@ const experienceSets = {
       ],
     },
     {
-      title: "Pathways Bootcamp Alumni",
+      title: "Software Engineering Fellow",
       company: "Netflix",
       date: "Jan 2023 – Apr 2023",
       location: "Los Angeles",
@@ -183,7 +183,7 @@ const experienceSets = {
       ],
     },
     {
-      title: "Pathways Bootcamp Alumni",
+      title: "Software Engineering Fellow",
       company: "Netflix",
       date: "Jan 2023 – Apr 2023",
       location: "Los Angeles",

@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item nav-link dropdown" onMouseEnter={() => setDropdownOpen(true)} onClick={() => setDropdownOpen(!dropdownOpen)}>
-              <span className="dropdown-toggle">Specialties ▾</span>
+              <span className="dropdown-toggle">Focus Areas ▾</span>
               {dropdownOpen && (
                 <ul className="dropdown-menu">
                   <li>
