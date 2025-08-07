@@ -7,7 +7,7 @@ function SoftwareEngineer() {
   return (
     <div className="main-page">
       <div className="software-engineer-page">
-        <IntroSection title="Software Engineer" resumeLink="https://docs.google.com/document/d/1RKx5oyX2uIYIMzN6CcOdRUOi5ZSn37auO2WwIxOYT3I/edit?usp=sharing" />
+        <IntroSection title="Software Engineer" resumeLink="https://docs.google.com/document/d/1X11rbSsFCslbf3CEjGrFusz5lIq7d-MYihjv4MFjO7Y/edit?usp=sharing" />
         <div id="skills" className="section">
           <h2 className="section-title">Skills</h2>
           <SkillLayout specialty="software-engineer" />
